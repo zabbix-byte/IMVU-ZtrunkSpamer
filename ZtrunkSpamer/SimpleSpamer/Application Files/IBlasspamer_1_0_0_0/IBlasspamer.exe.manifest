@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="IBlasspamer.exe" version="1.0.0.0" publicKeyToken="70c73761eda3937b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="109997_uLw_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="IBlasspamer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="IBlasspamer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IBlasspamer.exe" size="84960">
+      <assemblyIdentity name="IBlasspamer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zVi/R05+/N/FurPlMvZCXH2n90dF3M9MEkDl/SDb3X0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="109997_uLw_icon.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>15punfsWYpeBJbKIpPcwQnZDodVLmUkODbW0yD/Qaoo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="IBlasspamer.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-EM4J4S2\Trunk" issuerKeyHash="3c8bb3ea1ed97aed99a6659804e3476c27f48678" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fLUzSplpcZ+NZERnrpRHCFxyiOXnG/IV6Fj4etT+dtc=</DigestValue></Reference></SignedInfo><SignatureValue>UqeMYViSYcKIbx7DdBJjm5uaTbFBanhTpTG4x8X4+gKKlzy7jIEzJ8FVg4H3ps++WYnYsWCkms0Er3dKL8V1ZWH7xrft/JeLWd0vdO7gNYjRv+8kFhDUDeKUnEG8OEeYEbUA2hjHbvoOV015F1nrx0Ci8Y3XLRNg5VWenrpGCII=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>47QzFP6bKZcjcFWFBxqCnGpyf/p0ncYMPULdvRLq/pUVQcHKbQP1iSYkeT+Zkkks23A30POSuVyQr0B60q9StCL5cgTbs7S2yAa8rqR5HdDBvqJMA3utkWyPLoJXycme2I3uTrF0ejqEd7m42QdSin+I3S4KuLWO/OFbCyzVmi0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d776fed47af858e815f21be7e588725c084794ae6744648d9f7169994a33b57c" Description="" Url=""><as:assemblyIdentity name="IBlasspamer.exe" version="1.0.0.0" publicKeyToken="70c73761eda3937b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-EM4J4S2\Trunk</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NwFke/MMqFbN6x+CxWO3122CrWweWvggL4QRNju52z8=</DigestValue></Reference></SignedInfo><SignatureValue>LWE6RTY0zcUgLVxYpoFS7z5MR8nk5WjwiH50wHTE0onriUQWK1z53GJsHrDJZ3sdix9SUrOS/lXzX+/6lSHbEe/mBiAhxFl4k4C/VzWRQyCYokS385IQ/fzpfJI2Ew8nIYFlM9h9CE+sB0W/YI0hggN1ChxXT93LJCPoGUdGQBc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>47QzFP6bKZcjcFWFBxqCnGpyf/p0ncYMPULdvRLq/pUVQcHKbQP1iSYkeT+Zkkks23A30POSuVyQr0B60q9StCL5cgTbs7S2yAa8rqR5HdDBvqJMA3utkWyPLoJXycme2I3uTrF0ejqEd7m42QdSin+I3S4KuLWO/OFbCyzVmi0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQISghOF5SJqtKWXWFHez4lTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEUATQA0AEoANABTADIAXABUAHIAdQBuAGswHhcNMTkwNjA2MjA0MzIyWhcNMjAwNjA2MDI0MzIyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEUATQA0AEoANABTADIAXABUAHIAdQBuAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOO0MxT+mymXI3BVhQcagpxqcn/6dJ3GDD1C3b0S6v6VFUHBym0D9YkmJHk/mZJJLNtwN9DzkrlckK9AetKvUrQi+XIE27O0tsgGvK6keR3Qwb6iTAN7rZFsjy6CV8nJntiN7k6xdHo6hHe5uNkHUop/iN0uCri1jvzhWwss1ZotAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQWvjED4//c7lc/QY2UtnR9p1R30r2EQ5vLbV3w1uj3YslL/TyXLe4MttOvilhvpHM0TEP2YfSHYrRG2c+pgRFbnW1FR1eMMfSXy9T65KkOznStxt3Pjz1DAnpDsV/xqZ7OHdIKFiw3234s64tTFzbWkpTi3LUkxaO7aH/Gb7yjs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
